@@ -5,13 +5,6 @@ namespace Library
 {
     public class Singleton<T> where T : new()
     {
-        // void Subscribe(IObserver<T> observer);
-
-        // void Unsubscribe(IObserver<T> observer);
-        // private Singleton()
-        // {
-        //     // Intentionally left blank
-        // }
 
         private static T instance;
 
